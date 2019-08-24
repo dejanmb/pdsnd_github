@@ -27,12 +27,7 @@ The project used the following external files:
 
 The following online sources are used to finish the tasks in the project:
 
-    1. [Udacity Git Commit Message Style Guide][1]
-    2. [Writing READMEs Lesson on Udacity Website][2]
-    3. [Markdown quick reference cheat sheet][3]
-    4. [Mastering Markdown][4]
-
-[1]: https://udacity.github.io/git-styleguide/
-[2]: https://classroom.udacity.com/courses/ud777/lessons/5338568539/concepts/53929794080923
-[3]: https://en.support.wordpress.com/markdown-quick-reference/
-[4]: https://guides.github.com/features/mastering-markdown/
+    1. [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
+    2. [Writing READMEs Lesson on Udacity Website](https://classroom.udacity.com/courses/ud777/lessons/5338568539/concepts/53929794080923)
+    3. [Markdown quick reference cheat sheet](https://en.support.wordpress.com/markdown-quick-reference/)
+    4. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
