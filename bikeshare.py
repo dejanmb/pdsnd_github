@@ -213,14 +213,14 @@ def display_data(df):
        question is asked, until the user says "No"."""
     first = 0
     last = first + 5
-    answer = str(input('Would you like to see the raw data (yes/no)?')).lower()
-    if answer == "yes":
+    ans = str(input('Would you like to see the raw data (yes/no)?')).lower()
+    if ans == "yes":
         displaying = df[first:last]
         print('Displaying the first 5 lines of the raw data:\n', '-'*40, displaying)
 
-    while answer != "no":
-        answer = str(input('Would you like to see the next 5 line of the raw data (yes/no)?')).lower()
-        if answer == "no":
+    while ans != "no":
+        ans = str(input('Would you like to see the next 5 line of the raw data (yes/no)?')).lower()
+        if ans == "no":
             break
         else:
             first+=5
