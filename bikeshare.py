@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 weekdays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
-#Cities with gender and birth year data
+#Cities with gender and brth_yr data
 cities_gender_birth = ['chicago', 'new york city']
 
 def get_filters():
@@ -193,10 +193,10 @@ def user_stats(df):
     else:
         print('\nThere is no gender data for Washington')
     # TO DO 11: Display earliest, most recent, and most common year of birth
-    if 'Birth Year' in df:
-        print('\nEarliest year of birth:', int(df['Birth Year'].min()))
-        print('Most recent year of birth:', int(df['Birth Year'].max()))
-        print('Most common year of birth:', int(df['Birth Year'].mode()))
+    if 'brth_yr' in df:
+        print('\nEarliest year of birth:', int(df['brth_yr'].min()))
+        print('Most recent year of birth:', int(df['brth_yr'].max()))
+        print('Most common year of birth:', int(df['brth_yr'].mode()))
     else:
         print('\nThere is no birth year data for Washington')
 
